@@ -20,7 +20,7 @@ function App() {
       <Route path="routes/Exercise" element={<Exercise />} />
       <Route path="routes/Goal" element={<Goal />} />
       <Route path="routes/FAQ" element={<FAQ />} />
-      <Route path="/" element={<Main />} />
+      <Route path="/remotecare" element={<Main />} />
     </Routes>
   </Router>;
 }
