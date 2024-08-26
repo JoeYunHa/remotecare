@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/remotecare/static/css/main.ba320e13.css",
-    "main.js": "/remotecare/static/js/main.b2da6e24.js",
+    "main.js": "/remotecare/static/js/main.6edff18f.js",
     "static/media/AppleSDGothicNeoEB.ttf": "/remotecare/static/media/AppleSDGothicNeoEB.ea6bd07739f11db86707.ttf",
     "static/media/video_img.jpg": "/remotecare/static/media/video_img.08124653e2e36055711c.jpg",
     "static/media/tape_video_img.jpg": "/remotecare/static/media/tape_video_img.d552975919bde7b104ea.jpg",
     "index.html": "/remotecare/index.html",
     "main.ba320e13.css.map": "/remotecare/static/css/main.ba320e13.css.map",
-    "main.b2da6e24.js.map": "/remotecare/static/js/main.b2da6e24.js.map"
+    "main.6edff18f.js.map": "/remotecare/static/js/main.6edff18f.js.map"
   },
   "entrypoints": [
     "static/css/main.ba320e13.css",
-    "static/js/main.b2da6e24.js"
+    "static/js/main.6edff18f.js"
   ]
 }
