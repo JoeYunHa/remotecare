@@ -12,7 +12,7 @@ import Pain from "./routes/Pain";
 import Recommend from "./routes/Recommend";
 
 function App() {
-  return <Router>
+  return <Router basename={process.env.PUBLIC_URL}>
     <Routes>
       <Route path="routes/SelfDiagnose" element={<SelfDiagnose />} />
       <Route path="routes/Pain" element={<Pain />} />
