@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/remotecare/static/css/main.ba320e13.css",
-    "main.js": "/remotecare/static/js/main.4aa697db.js",
-    "static/media/AppleSDGothicNeoEB.ttf": "/remotecare/static/media/AppleSDGothicNeoEB.ea6bd07739f11db86707.ttf",
-    "static/media/video_img.jpg": "/remotecare/static/media/video_img.08124653e2e36055711c.jpg",
-    "static/media/tape_video_img.jpg": "/remotecare/static/media/tape_video_img.d552975919bde7b104ea.jpg",
+    "main.css": "/remotecare/static/css/main.31c9ab65.css",
+    "main.js": "/remotecare/static/js/main.94f35848.js",
+    "static/media/AppleSDGothicNeoH.ttf": "/remotecare/static/media/AppleSDGothicNeoH.c9b896b8f1d363108e8c.ttf",
+    "static/media/AppleSDGothicNeoB.ttf": "/remotecare/static/media/AppleSDGothicNeoB.4175a777557557f7d294.ttf",
+    "static/media/AppleSDGothicNeoM.ttf": "/remotecare/static/media/AppleSDGothicNeoM.88c00162a2084f97069c.ttf",
+    "static/media/AppleSDGothicNeoSB.ttf": "/remotecare/static/media/AppleSDGothicNeoSB.24f6918836e50d1e5621.ttf",
+    "static/media/foot.png": "/remotecare/static/media/foot.ed7abb005966161bfd59.png",
+    "static/media/Exercise.png": "/remotecare/static/media/Exercise.2506fa81127771743393.png",
+    "static/media/FAQ.png": "/remotecare/static/media/FAQ.436e09a9ea120f93df6d.png",
+    "static/media/selfDiagnose.png": "/remotecare/static/media/selfDiagnose.5b438759681c7daa31a6.png",
     "index.html": "/remotecare/index.html",
-    "main.ba320e13.css.map": "/remotecare/static/css/main.ba320e13.css.map",
-    "main.4aa697db.js.map": "/remotecare/static/js/main.4aa697db.js.map"
+    "main.31c9ab65.css.map": "/remotecare/static/css/main.31c9ab65.css.map",
+    "main.94f35848.js.map": "/remotecare/static/js/main.94f35848.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba320e13.css",
-    "static/js/main.4aa697db.js"
+    "static/css/main.31c9ab65.css",
+    "static/js/main.94f35848.js"
   ]
 }
