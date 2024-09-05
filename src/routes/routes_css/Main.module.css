@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AppleSDGothicNeoB";
+    src: url("../../apple고딕/AppleSDGothicNeoB.ttf") format("truetype");
+    font-style: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AppleSDGothicNeoM";
+    src: url("../../apple고딕/AppleSDGothicNeoM.ttf") format("truetype");
+    font-style: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AppleSDGothicNeoH";
+    src: url("../../apple고딕/AppleSDGothicNeoH.ttf") format("truetype");
+    font-style: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AppleSDGothicNeoH";
+    src: url("../../apple고딕/AppleSDGothicNeoH.ttf") format("truetype");
+    font-style: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AppleSDGothicNeoSB";
+    src: url("../../apple고딕/AppleSDGothicNeoSB.ttf") format("truetype");
+    font-style: normal;
+    font-style: normal;
+}
+
+:root{
+    --main-color: #6dcff6;
+    --back-ground-color: #f5f5f5;
+    --border-color: #cfcfcf;
+    --btn-border-color: #ffffff;
+    --prev-btn-color: #cccccc;
+}
+
+.container {
+    width: 1080px;
+    height: 1920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headContainer{
+    width: 1080px;
+    height: fit-content;
+}
+
+.headImg{
+    width: 1080px;
+    height: 231px;
+}
+
+.selectContainer{
+    display: flex;
+    width: 1080px;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: var(--back-ground-color);
+}
+
+.mainBtn{
+    width: 461px;
+    height: 461px;
+    border-radius: 60px;
+    border-width: 0px;
+    padding: 0px;
+}
+
+.greeting{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 1080px;
+    height: 144px;
+    background-color: var(--back-ground-color);
+}
+
+.greeting h1{
+    font-family: AppleSDGothicNeoSB;
+    font-size: 40pt;
+    padding-left: 80px;
+    font: bold;
+}
+
+.greeting h2{
+    font-family: AppleSDGothicNeoM;
+    font-size: 30pt;
+    padding: 0px;
+    margin-top: 48px;
+}
+
+.navBar{
+    width: 1080px;
+    height: 322px;
+    margin-bottom: 0px;
+}
+
+.navBar img{
+    width: 1080px;
+    height: 322px;
+}
