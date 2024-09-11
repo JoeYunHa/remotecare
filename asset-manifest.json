@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/remotecare/static/css/main.f0f815f3.css",
-    "main.js": "/remotecare/static/js/main.ac35c5fc.js",
+    "main.css": "/remotecare/static/css/main.632890df.css",
+    "main.js": "/remotecare/static/js/main.6690841e.js",
     "static/media/AppleSDGothicNeoH.ttf": "/remotecare/static/media/AppleSDGothicNeoH.c9b896b8f1d363108e8c.ttf",
     "static/media/AppleSDGothicNeoB.ttf": "/remotecare/static/media/AppleSDGothicNeoB.4175a777557557f7d294.ttf",
     "static/media/AppleSDGothicNeoM.ttf": "/remotecare/static/media/AppleSDGothicNeoM.88c00162a2084f97069c.ttf",
     "static/media/AppleSDGothicNeoSB.ttf": "/remotecare/static/media/AppleSDGothicNeoSB.24f6918836e50d1e5621.ttf",
     "index.html": "/remotecare/index.html",
-    "main.f0f815f3.css.map": "/remotecare/static/css/main.f0f815f3.css.map",
-    "main.ac35c5fc.js.map": "/remotecare/static/js/main.ac35c5fc.js.map"
+    "main.632890df.css.map": "/remotecare/static/css/main.632890df.css.map",
+    "main.6690841e.js.map": "/remotecare/static/js/main.6690841e.js.map"
   },
   "entrypoints": [
-    "static/css/main.f0f815f3.css",
-    "static/js/main.ac35c5fc.js"
+    "static/css/main.632890df.css",
+    "static/js/main.6690841e.js"
   ]
 }
