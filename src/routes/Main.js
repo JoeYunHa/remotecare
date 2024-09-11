@@ -27,6 +27,7 @@ function Main(){
                         <div className={styles.div4}> </div>
                     </div>
                 </div>
+                <div className={styles.footer}></div>
             </div>
         </div>
     )
