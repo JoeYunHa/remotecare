@@ -43,5 +43,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://JoeYunHa.github.io/remotecare"
+  "homepage": "https://JoeYunHa.github.io/remotecare",
+  "devDependencies": {
+    "sass": "^1.79.3"
+  }
 }

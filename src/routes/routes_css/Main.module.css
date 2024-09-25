@@ -83,10 +83,12 @@
     
         .header>h1 {
             display: flex;
-            padding: 7.03122% 0 0 9.16666%; /*75 0 0 55*/
+            padding-left: 9.16666%; /*75 0 0 55*/
+            height: 100%;
+            align-items: center;
             font-family: "GmarketSansMedium";
             font-weight: bold;
-            font-size: 8.57407vw;
+            font-size: 8.33333vmin;
             /*463 ÷ 5 * 100 ÷ 1080 단위 vw로 변경*/
             margin: 0;
         }
@@ -138,8 +140,8 @@
             /*1080 ÷ 1080*/
             height: 86.50005%;
             /*1328 ÷ 1920*/
-            grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
+
             grid-column-gap: 3.51851%;
             /*38 ÷ 1080*/
             grid-row-gap: 3.01204%;
@@ -150,11 +152,16 @@
         }
     
         .select>* {
+            display: flex;
+            justify-content: center;
+            max-width: 42.6851%;
+            aspect-ratio: 1/1;
             border-radius: 10%;
             background-color: var(--main-color);
             border: 0;
         }
-    
+
+           
         .div1 {
             grid-column: 1 / 2;
             grid-row: 1 / 2;
@@ -175,11 +182,27 @@
             grid-row: 2 / 3;
         }
 
-        .footer{
+        .footer{ 
             display: flex;
+            justify-content: space-around;
             width: 100%;
             height: 21.96865%;
-            background-color: var(--nav-bar-color);
+            background-color: white;
+            border-top-color: var(--border-color);
+            border-top-width: 1px;
+        }
+
+        .img_container {
+            display: flex;
+            width: 9.25925vw;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .img_container h1 {
+            font-family: 'AppleSDGothicNeoM';
+            font-size: 2.96222vh;
         }
 }
 /*Small devices (portrait tablets and large phones, 600px and up)*/
@@ -213,15 +236,19 @@
             height: 11.65618%;
             /*231 ÷ 1066.67*/
             background-color: var(--main-color);
+            justify-content: flex-start;
+            align-content: center;
         }
     
         .header>h1 {
             display: flex;
-            padding: 7.03122% 0 0 9.16666%;
+            padding-left: 9.16666%;
             /*75 0 0 55*/
+            height: 100%;
+            align-items: center;
             font-family: "GmarketSansMedium";
             font-weight: bold;
-            font-size: 8.57407vw;
+            font-size: 8.33333vmin;
             /*463 ÷ 5 * 100 ÷ 1080 단위 vw로 변경*/
             margin: 0;
         }
@@ -275,8 +302,8 @@
             /*600 ÷ 600*/
             height: 86.50005%;
             /*922.67008 ÷ 1066.67*/
-            grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
+
             grid-column-gap: 3.51851%;
             /*38 ÷ 1080*/
             grid-row-gap: 3.01204%;
@@ -287,6 +314,10 @@
         }
     
         .select>* {
+            display: flex;
+            justify-content: center;
+            max-width: 42.6851%;
+            aspect-ratio: 1/1;
             border-radius: 10%;
             background-color: var(--main-color);
             border: 0;
@@ -314,9 +345,26 @@
     
         .footer {
             display: flex;
+            justify-content: space-around;
             width: 100%;
             height: 21.96865%;
-            background-color: var(--nav-bar-color);
+            background-color: white;
+            border-top-color: var(--border-color);
+            border-top-width: 1px;
+        }
+
+        .img_container {
+            display: flex;
+            width: 9.25925vw;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+        
+        .img_container h1 {
+            font-family: 'AppleSDGothicNeoM';
+            font-size: 2.96222vh;
         }
 }
 /*Medium devices (landscape tablets, 768px and up)*/
@@ -349,14 +397,18 @@
             height: 16.91898%;
             /*231 ÷ 1365.33*/
             background-color: var(--main-color);
+            justify-content: flex-start;
+            align-content: center;
         }
     
         .header>h1 {
             display: flex;
-            padding: 5.49317% 0 0 7.16145%;
+            padding-left: 7.16145%;
+            height: 100%;
+            align-items: center;
             font-family: "GmarketSansMedium";
             font-weight: bold;
-            font-size: 8.57407vw;
+            font-size: 8.33333vmin;
             /*463 ÷ 5 * 100 ÷ 1080 단위 vw로 변경*/
             margin: 0;
         }
@@ -399,7 +451,7 @@
             display: flex;
             width: 100%;
             /*1080 ÷ 1080*/
-            height: 68.10538%;
+            height: 58.10538%;
             /*100-16.91898*/
             background-color: var(--back-ground-color);
         }
@@ -410,8 +462,8 @@
             /*1080 ÷ 1080*/
             height: 86.50005%;
             /*922.67008 ÷ 1365.33*/
-            grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
+
             grid-column-gap: 3.51851%;
             /*38 ÷ 1080*/
             grid-row-gap: 3.01204%;
@@ -422,6 +474,10 @@
         }
     
         .select>* {
+            display: flex;
+            justify-content: center;
+            max-width: 42.6851%;
+            aspect-ratio: 1/1;
             border-radius: 7.8125%;
             background-color: var(--main-color);
             border: 0;
@@ -447,10 +503,27 @@
             grid-row: 2 / 3;
         }
 
-        .footer{
+        .footer{ 
             display: flex;
+            justify-content: space-around;
             width: 100%;
-            height: 24.97564%
+            height: 24.97564%;
+            background-color: white;
+            border-top-color: var(--border-color);
+            border-top-width: 1px;
+        }
+        .img_container {
+            display: flex;
+            width: 9.25925vw;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+
+        .img_container h1 {
+            font-family: 'AppleSDGothicNeoM';
+            font-size: 2.96222vh;
         }
 }
 /*Large devices (laptops/destops, 992px and up)*/
@@ -483,15 +556,19 @@
             height: 13.10511%;
             /*231 ÷ 1762.67*/
             background-color: var(--main-color);
+            justify-content: flex-start;
+            align-content: center;
         }
     
         .header>h1 {
             display: flex;
-            padding: 4.25490% 0 0 5.54435%;
+            padding-left: 5.54435%;
             /*75 0 0 55*/
+            height: 100%;
+            align-items: center;
             font-family: "GmarketSansMedium";
             font-weight: bold;
-            font-size: 8.57407vw;
+            font-size: 8.33333vmin;
             /*86.1pt*/
             margin: 0;
         }
@@ -543,8 +620,8 @@
             /*992 ÷ 992*/
             height: 86.50005%;
             /*1328 ÷ 1920*/
-            grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
+            
             grid-column-gap: 3.51851%;
             /*38 ÷ 1080*/
             grid-row-gap: 3.01204%;
@@ -555,6 +632,10 @@
         }
     
         .select>* {
+            display: flex;
+            justify-content: center;
+            max-width: 42.6851%;
+            aspect-ratio: 1/1;
             border-radius: 6.04838%;
             background-color: var(--main-color);
             border: 0;
@@ -580,10 +661,28 @@
             grid-row: 2 / 3;
         }
 
-        .footer{
+        .footer{ 
+            display: flex;
+            justify-content: space-around;
             width: 100%;
             height: 19.34565%;
-            background-color: var(--nav-bar-color);
+            background-color: white;
+            border-top-width: 1px;
+            border-top-color: var(--border-color);
+        }
+
+        .img_container {
+            display: flex;
+            width: 9.25925vw;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+
+        .img_container h1 {
+            font-family: 'AppleSDGothicNeoM';
+            font-size: 2.96222vh;
         }
 }
 /*Extra Large devices (large laptops and desktops, 1200px and up)*/
@@ -599,9 +698,9 @@
     
         #container {
             width: 90%;
-            /*1080px*/
+            /*1200px*/
             height: 100%;
-            /*1920px*/
+            /*2133.33px*/
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -612,18 +711,22 @@
         .header {
             display: flex;
             width: 100%;
-            /*1080 ÷ 1080*/
-            height: 12.03125%;
-            /*231 ÷ 1920*/
+            /*1200 ÷ 1200*/
+            height: 10.82814%;
+            /*231 ÷ 2133.33*/
             background-color: var(--main-color);
+            justify-content: flex-start;
+            align-content: center;
         }
     
         .header>h1 {
             display: flex;
-            padding: 3.90625% 0 0 5.09259%;
+            padding-left: 4.58333%;
+            height: 100%;
+            align-items: center;
             font-family: "GmarketSansMedium";
             font-weight: bold;
-            font-size: 7.18rem;
+            font-size: 8.33333vmin;
             /*86.1pt*/
             margin: 0;
         }
@@ -633,30 +736,31 @@
             flex-wrap: nowrap;
             align-items: baseline;
             width: 100%;
-            /*1080 ÷ 1080*/
-            height: 7.5%;
-            /*144 ÷ 1920*/
+            /*1200 ÷ 1200*/
+            height: 6.75001%;
+            /*144 ÷ 2133.33*/
             background-color: var(--back-ground-color);
         }
     
         .greeting h1 {
             position: relative;
-            left: 7.40740%;
-            /*80 ÷ 1080*/
-            top: 2.5%;
-            /*48 ÷ 1920*/
+            left: 6.66666%;
+            /*80 ÷ 1200*/
+            top: 2.25000%;
+            /*48 ÷ 2133.33*/
             font-family: 'AppleSDGothicNeoSB';
-            font-size: 40pt;
+            font-size: 2.96222vh;
             font: bold;
         }
     
         .greeting h2 {
             position: relative;
-            left: 8.33332%;
-            top: 2.5%;
-            /*48 ÷ 1920*/
+            left: 7.5%;
+            /*90 ÷ 1200*/
+            top: 2.25000%;
+            /*48 ÷ 2133.33*/
             font-family: 'AppleSDGothicNeoM';
-            font-size: 30pt;
+            font-size: 1.96222vh;
             padding: 0px;
         }
     
@@ -664,32 +768,34 @@
             display: flex;
             width: 100%;
             /*1080 ÷ 1080*/
-            height: 69.16666%;
-            /*1328 ÷ 1920*/
+            height: 73.18747%;
+            /*100-footer-header*/
             background-color: var(--back-ground-color);
         }
     
         .select {
             display: grid;
             width: 100%;
-            /*1080 ÷ 1080*/
-            height: 69.16666%;
+            /*1200 ÷ 1200*/
+            height: 86.50005%;
             /*1328 ÷ 1920*/
-            grid-template-columns: 1fr 1fr;
             grid-template-rows: 1fr 1fr;
+            
             grid-column-gap: 3.51851%;
             /*38 ÷ 1080*/
             grid-row-gap: 3.01204%;
             /*40 ÷ 1920*/
-            margin-top: 10.84337%;
-            /*144 ÷ 1328*/
             margin-left: 5.37037%;
             /*58 ÷ 1080*/
             margin-right: 5.37037%;
         }
     
         .select>* {
-            border-radius: 60px;
+            display: flex;
+            justify-content: center;
+            max-width: 42.6851%;
+            aspect-ratio: 1/1;
+            border-radius: 5%;
             background-color: var(--main-color);
             border: 0;
         }
@@ -712,5 +818,33 @@
         .div4 {
             grid-column: 2 / 3;
             grid-row: 2 / 3;
+        }
+
+        .footer{ 
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            height: 15.98439%;
+            background-color: white;
+            border-top-color: var(--border-color);
+            border-top-width: 1px;
+        }
+        .img_container {
+            display: flex;
+            width: 9.25925vw;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+
+        .img_container img{
+            display: flex;
+            width: 9.25925%;
+        }
+    
+        .img_container h1 {
+            font-family: 'AppleSDGothicNeoM'; 
+            font-size: 2.96222vh;
         }
 }
